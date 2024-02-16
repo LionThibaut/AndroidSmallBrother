@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="bottom_porfile_item">Login(temp)</string>
+    <string name="bottom_collection_item">Disparition</string>
+    <string name="bottom_add_animal_item">Mes animaux</string>
+
+    <string name="app_name">Small Brother</string>e
+    <string name="title_activity_login">Connexion</string>
+    <string name="title_activity_my_aniamls">Mes animaux</string>
+    <string name="title_activity_disparitions_feed">Animaux disparus</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Page login -->
+    <string name="login_page_title">Connexion</string>
+    <string name="login_page_mail">Mail</string>
+    <string name="login_page_pswd">Mot de passe</string>
+    <string name="login_page_confirm">Connexion</string>
+
+    <!-- Pop up Table View-->
+    <string name="popup_">Connexion</string>
+
+    <!-- Pop up my animals-->
+    <string name="popup_animal_name">LeNomDuChien</string>
+    <string name="popup_animal_details">Details</string>
+    <string name="popup_animal_description">Description</string>
+    <string name="popup_animal_state">Etat</string>
+
+    <string name="popup_animal_details_subtitle">Details du chien</string>
+    <string name="popup_animal_description_subtitle">Description du chien</string>
+    <string name="popup_animal_state_subtitle">Etat du chien</string>
+
+</resources>

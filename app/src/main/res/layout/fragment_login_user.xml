@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_default"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_loginFragment_mail"
+        style="@style/StyleTextDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:ems="10"
+        android:hint="@string/login_page_mail"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/margin_default" />
+
+    <EditText
+        android:id="@+id/et_loginFragment_connection"
+        style="@style/StyleTextDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_default"
+        android:ems="10"
+        android:hint="@string/login_page_title"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/margin_default" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_loginFragment_connection"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/margin_default"
+        android:background="@color/black"
+        android:text="@string/login_page_confirm"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+</LinearLayout>
